@@ -23,4 +23,5 @@ public class MyController {
     public @ResponseBody Iterable<User> findAllUser(){
         return userRepository.findAll();
     }
+
 }
